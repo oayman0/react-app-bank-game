@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+.navigation-bar{
+height: 64px;
+background-color:#fff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.landing{
+    min-height: 100vh;
+    background-color: #F1CFB6;
+}
+.hero{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 40px;
+}
+.large-btn {
+    font-family: 'Cairo', 'Inter',sans-serif;
+    width: 187px;
+    height: 64px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #2E4353;
+    border: none;
+    border-radius: 16px;
+    font-weight: 600;
+    align-self: center;
+}
+
+.answers-page{
+    min-height: 100vh;
+    background-color: #F1CFB6;
+}
+
+.answers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 30px;
+}
+
+.input{
+    font-family: 'Cairo', 'Inter',sans-serif;
+    width: 187px;
+    height: 64px;
+    font-size: 24px;
+    color:  #2E4353;
+    background-color:#fff;
+    border: none;
+    border-radius: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+label{
+    font-family: 'Cairo', 'Inter',sans-serif;
+    font-size: 24px;
+    color:  #2E4353;
+    font-weight: 600;
+
+}
+
+ol{
+    font-family: 'Cairo', 'Inter',sans-serif;
+    direction: rtl;
+    list-style-type: decimal;
+    max-width: 250px;
+    font-size: 24px;
+    list-style-type: arabic-indic;
+}

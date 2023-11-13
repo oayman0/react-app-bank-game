@@ -4,7 +4,7 @@ import SequenceDisplay from './SequenceDisplay';
 import data from '../data.json';
 import Hero from '../assets/images/hero.png'
 import Logo from '../assets/images/logo.png'
-// import successSoundFile from "../assets/audio/music.mp3";
+import successSoundFile from "../assets/audio/music.mp3";
 
 const UserInterface = () => {
     const [gameHasStarted, setGameHasStarted] = useState(false);
@@ -13,13 +13,13 @@ const UserInterface = () => {
 
     // const [musicOn, setMusicOn] = useState(false);
 
-    // const successSoundRef = useRef(null);
+    const successSoundRef = useRef(null);
 
-    // useEffect(() => {
-    //     if (gameHasStarted) {
-    //         successSoundRef.current.play();
-    //     }
-    // }, [gameHasStarted]);
+    useEffect(() => {
+        if (gameHasStarted) {
+            successSoundRef.current.play();
+        }
+    }, [gameHasStarted]);
 
 
     const handleReset = () => {
@@ -74,9 +74,9 @@ const UserInterface = () => {
                     </form>
                 </div>
                 {/* Completion Sound Effect */}
-                {/* <audio ref={successSoundRef} hidden>
-                    <source src={successSoundFile} type="audio/mpeg" />
-                </audio> */}
+                <audio ref={successSoundRef} hidden>
+                    <source src={successSoundFile} type="audio/mpeg"  />
+                </audio>
             </>
         );
     } else {

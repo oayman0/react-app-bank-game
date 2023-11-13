@@ -60,7 +60,7 @@ const UserInterface = () => {
                 <div className='answers-page'>
                     <form onSubmit={handleShowUnitValues}>
                         <div className='answers'>
-                            <label htmlFor="unitNumber">ادخل رقم الكارت </label>
+                            <label htmlFor="unitNumber" className='title'>ادخل رقم الكارت </label>
                             <input
                                 className='input'
                                 type="number"
@@ -90,6 +90,17 @@ const UserInterface = () => {
                     <button className='large-btn' onClick={() => {
                         setGameHasStarted(() => (true))
                     }}>ابدأ اللعبة</button>
+                    <div className='rules'>
+
+                    <h2 className='title'>قوانين اللعبة</h2>
+                    <ol >
+                        <li className='rules'>اللعبة مكونة من 100 كارت.</li>
+                        <li className='rules'>كل كارت مكون من 10 أسئلة.</li>
+                        <li className='rules'>مدة إجابة الكارت دقيقتين.</li>
+                        <li className='rules'>يمكن لكل فريق قول "بنك" قبل أى سؤال لحفظ النقاط السابقة وإضافتها للمجموع الكلى وإلا يخسر نقاط الاجابات الصحيحة.    </li>
+                    <li className='rules'>تسلسل النقاط 1-2-4-6-8-10.</li>
+                    </ol>
+                    </div>
 
                 </div>
 

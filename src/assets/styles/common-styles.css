@@ -64,7 +64,7 @@ justify-content: center;
     font-weight: 600;
     text-align: center;
 }
-label{
+.title{
     font-family: 'Cairo', 'Inter',sans-serif;
     font-size: 24px;
     color:  #2E4353;
@@ -79,4 +79,12 @@ ol{
     max-width: 250px;
     font-size: 24px;
     list-style-type: arabic-indic;
+}
+.rules{
+    font-family: 'Cairo', 'Inter',sans-serif;
+    color:  #252525;
+    font-weight: 600;
+    width: 250px;
+    direction: rtl;
+    font-size: 18px;
 }

@@ -1,4 +1,4 @@
-
+{
   "short_name": "Remontada",
   "name": "Remontada",
   "icons": [
@@ -27,3 +27,4 @@
   "lang": "en",
   "categories": ["games","football","cards","quizes"],
   "iarc_rating_id": "E"
+}

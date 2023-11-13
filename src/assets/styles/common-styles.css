@@ -14,7 +14,7 @@ justify-content: center;
 
 .landing{
     min-height: 100vh;
-    background-color: #F1CFB6;
+    background-color: #bd8d43;
 }
 .hero{
     min-height: 70vh;
@@ -31,7 +31,7 @@ justify-content: center;
     height: 64px;
     font-size: 24px;
     color: #fff;
-    background-color: #2E4353;
+    background-color: #41505C;
     border: none;
     border-radius: 16px;
     font-weight: 600;
@@ -40,7 +40,7 @@ justify-content: center;
 
 .answers-page{
     min-height: 100vh;
-    background-color: #F1CFB6;
+    background-color: #bd8d43;
 }
 
 .answers{
@@ -82,7 +82,7 @@ ol{
 }
 .rules{
     font-family: 'Cairo', 'Inter',sans-serif;
-    color:  #252525;
+    color:  #1b1b1b;
     font-weight: 600;
     width: 250px;
     direction: rtl;

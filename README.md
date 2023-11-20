@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Remontada Bank Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Remontada Bank Game project, a web application designed to provide answers to the "Bank", a football card game. The project is implemented using ReactJS and designed with Figma.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Remontada Bank Game is a website specifically created for the "Bank", a football card game, which consists of 100 cards, each containing 10 football-related questions. The website enables users to easily access and find answers to questions on specific cards by entering the card number.
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live demo of Remontada Bank Game hosted at [https://remontada-bank.onrender.com/](https://remontada-bank.onrender.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![1](https://github.com/oayman0/react-app-bank-game/assets/37955772/7a709573-3bcf-4bf6-9ce0-2b8e5f546891)
+![2](https://github.com/oayman0/react-app-bank-game/assets/37955772/e63c517f-df63-4c26-b391-d5d4c211ecb6)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Interactive Interface:** The website provides an interactive interface for users to easily navigate and find answers to questions.
+- **Search by Card Number:** Users can enter the card number to quickly access the answers for the corresponding set of questions.
+- **React Components:** The project utilizes ReactJS for a component-based architecture, ensuring a modular and maintainable codebase.
+- **Designed with Figma:** The user interface is designed using Figma, ensuring a visually appealing and user-friendly experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/remontada-bank-game.git
+   cd remontada-bank-game
+   
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   
+3. **Run the Application:**
+   ```bash
+   npm start
+   
+The application will be accessible at 'http://localhost:3000/' in your browser.
 
-### `npm run eject`
+## Usage
+Enter the card number in the designated field to get answers to the questions on that card.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
+If you'd like to contribute to the project, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Fork the repository on GitHub.
+- Create a new branch with a descriptive name.
+- Make your changes and commit them with clear messages.
+- Push your changes to your fork.
+- Submit a pull request.
+- Issues
+If you encounter any issues or have suggestions for improvement, please open an issue.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
+This project is licensed under the MIT License.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -9,9 +9,8 @@ Remontada Bank Game is a website specifically created for the "Bank", a football
 ## Live Demo
 
 Check out the live demo of Remontada Bank Game hosted at [https://remontada-bank.onrender.com/](https://remontada-bank.onrender.com/)
-![WhatsApp Image 2023-11-20 at 12 42 07 PM](https://github.com/oayman0/react-app-bank-game/assets/37955772/116b19ae-c672-4ee5-a967-b9a14f9b3850)
-![WhatsApp Image 2023-11-20 at 12 42 07 PM (1)](https://github.com/oayman0/react-app-bank-game/assets/37955772/6f9d648a-a8e0-438b-bc8d-5a8e4f901142)
 
+![Frame 1](https://github.com/oayman0/react-app-bank-game/assets/37955772/b1d91967-e9aa-461b-bf47-c6a7780c3f1b)
 
 
 ## Features

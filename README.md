@@ -1,6 +1,6 @@
 # Remontada Bank Game
 
-Welcome to the Remontada Bank Game project, a web application designed to provide answers to the "Bank", a football card game. The project is implemented using ReactJS and designed with Figma.
+Welcome to Remontada Bank Game, a web application designed to provide answers to the "Bank", a football card game. The project is implemented using ReactJS and designed with Figma.
 
 ## Overview
 
@@ -43,18 +43,5 @@ The application will be accessible at 'http://localhost:3000/' in your browser.
 ## Usage
 Enter the card number in the designated field to get answers to the questions on that card.
 
-## Contributing
-If you'd like to contribute to the project, follow these steps:
-
-- Fork the repository on GitHub.
-- Create a new branch with a descriptive name.
-- Make your changes and commit them with clear messages.
-- Push your changes to your fork.
-- Submit a pull request.
-- Issues
-If you encounter any issues or have suggestions for improvement, please open an issue.
-
-## License
-This project is licensed under the MIT License.
 
 

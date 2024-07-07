@@ -27,7 +27,7 @@ Check out the live demo of Remontada Bank Game hosted at
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/remontada-bank-game.git
+   git clone https://github.com/oayman0/react-app-bank-game.git
    cd remontada-bank-game
    
 2. **Install Dependencies:**
